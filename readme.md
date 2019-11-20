@@ -1,7 +1,7 @@
 ### Babel with Webpack Exploration
 
-Babel - allows us to use latest javascript syntax (es6,es7,es8, next gen) by converting it to a syntax that most old browsers can understand.(More)[https://babeljs.io/]
-Webpack - It bundles javascript,css other static files that you need.(More)[https://webpack.js.org/]
+Babel - allows us to use latest javascript syntax (es6,es7,es8, next gen) by converting it to a syntax that most old browsers can understand.[More](https://babeljs.io/)
+Webpack - It bundles javascript,css other static files that you need.[More](https://webpack.js.org/)
 
 ### Getting Started
 
@@ -11,7 +11,7 @@ Webpack - It bundles javascript,css other static files that you need.(More)[http
 
 `npm install --save-dev babel-preset-env` - will use this us our presets, see `.babelrc`
 
-create `.babelrc` inside will be:
+Create `.babelrc` inside will be:
 
 ```bash
       {
@@ -29,13 +29,13 @@ create `.babelrc` inside will be:
       }
 ```
 
-for more babel config see (here)[https://babeljs.io/docs/usage/api/#options]
+For more babel config see (here)[https://babeljs.io/docs/usage/api/#options]
 
-will now create directories required:
+Will now create directories required:
 
 `mkdir src dist` - will create directory src and dist
 
-now lets add scripts inside our package.json
+Now lets add scripts inside our package.json
 
 ```json
 "scripts": {
@@ -45,13 +45,13 @@ now lets add scripts inside our package.json
 
 `babel src -d dist` - means that all js files inside src will be translated and the output will be put inside dist folder
 
-now we can run `npm run build`
+Now we can run `npm run build`
 
 We can now start setting up our webpack to bundle js or css if we have a lot of files so that it will become a single file.
 
 `npm install webpack webpack-cli --save-dev`
 
-create `webpack.config.js` file in root directory of the app.
+Create `webpack.config.js` file in root directory of the app.
 
 `touch webpack.config.js`
 
@@ -82,3 +82,8 @@ Now lets update our scripts inside `package.json`
 Everything now is done, we can now use the javascript outputed by webpack.
 We can Also use latest javascript syntax because we have babel.
 Everytime we had changes on src files must run `npm run build` so that webpack will generate updated js codes.
+
+###### If you want to test this
+
+- run `npm install`
+- run `npm run build`
