@@ -93,6 +93,8 @@ Everytime we had changes on src files must run `npm run build` so that webpack w
 
 > If having error in require keyword. Use require.js to fix
 
-Refer to another project on how to use require.js. [Read more about require.js](https://requirejs.org/)
+Refer to another project on how to use require.js. 
 
 [Set Rating](https://github.com/vindecodex/mycodepen/tree/master/vuejs-set-rating)
+
+[Read more about require.js](https://requirejs.org/)
